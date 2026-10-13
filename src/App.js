@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbaer from "./components/Navbaer";
+import Textarea from './components/Textarea';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with ritik
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbaer titile="Testutils" about="About TestUtils" />
+      <Textarea heeading="Enter your text here" />
+    </>
+
+
   );
 }
 
